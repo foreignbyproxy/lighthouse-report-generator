@@ -1,0 +1,17 @@
+{
+	"name": "lighthouse-reports-generator",
+	"version": "1.0.0",
+	"description": "A project to generate lighthouse reports",
+	"main": "./src/main.mjs",
+	"scripts": {
+		"start": "npx zx ./src/main.mjs"
+	},
+	"author": "Greg Gerard <greg@gregorygerard.me>",
+	"license": "ISC",
+	"dependencies": {
+		"date-fns": "^2.23.0",
+		"lighthouse": "^8.2.0",
+		"ora": "^5.4.1",
+		"zx": "^2.0.0"
+	}
+}
